@@ -20,7 +20,7 @@ rx:15;
 
 </style>
 
-<rect class="box" width="420" height="220"/>
+<rect class="box" width="420" height="220" fill="#161B22"/>
 
 <text x="20" y="35" class="title">
 PROFILE
