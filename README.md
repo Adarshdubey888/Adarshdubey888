@@ -2,8 +2,11 @@
 
 <img src="./assets/banner.svg" width="100%">
 
-# <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&repeat=true&width=900&lines=Initializing+Cyber+Terminal...;Loading+Security+Modules...;Connecting+to+GitHub...;Welcome+Adarsh+Dubey;Cyber+Security+%7C+Full+Stack+Developer;Building+AI+Powered+Solutions" />
+<p align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2000&pause=700&color=00FF66&center=true&vCenter=true&width=900&lines=Cyber+Security+Engineer;Full+Stack+Developer;Python+%7C+Django+%7C+JavaScript;Machine+Learning+Enthusiast;Building+CyberHQ;Building+FasalMitra+AI" />
+
+</p>
 </div>
 
 ---
