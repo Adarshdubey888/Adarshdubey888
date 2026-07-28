@@ -1,3 +1,22 @@
+<table align="center">
+<tr>
+
+<td>
+
+<img src="./assets/profile-card.svg"/>
+
+</td>
+
+<td>
+
+<img src="./assets/system.svg"/>
+
+</td>
+
+</tr>
+</table>
+
+
 <div align="center">
 
 <img src="./assets/banner.svg" width="100%">
