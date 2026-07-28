@@ -206,11 +206,7 @@ Machine Learning    ██████████████         78%
 
 </div>
 
-# 🐍 Contribution Snake
 
-> Coming in the next step...
-
----
 
 # 📡 Contact Terminal
 
