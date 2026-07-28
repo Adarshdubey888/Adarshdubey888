@@ -31,30 +31,31 @@ guest@github:~$ help
 | clear | Clear terminal |
 
 ---
+<div align="center">
+
+# 🖥️ SYSTEM STATUS
 
 ```console
-guest@github:~$ whoami
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  USER        : Adarsh Dubey                                                  │
+│                                                                              │
+│  ROLE        : Cyber Security Developer                                      │
+│                                                                              │
+│  EDUCATION   : MCA @ Galgotias University                                    │
+│                                                                              │
+│  SPECIALITY  : AI • Cyber Security • Full Stack                              │
+│                                                                              │
+│  OS          : Kali Linux                                                    │
+│                                                                              │
+│  SHELL       : /bin/bash                                                     │
+│                                                                              │
+│  STATUS      : 🟢 ONLINE                                                     │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-```text
-Name        : Adarsh Dubey
-
-Role        : Cyber Security Developer
-
-Education   : MCA @ Galgotias University
-
-Interests   : AI • Cyber Security • Full Stack Development
-
-OS          : Kali Linux
-
-Editor      : VS Code
-
-Status      : Online 🟢
-```
-
----
-
-```console
+</div>
 guest@github:~$ skills
 ```
 
