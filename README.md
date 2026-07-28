@@ -1,42 +1,27 @@
 <div align="center">
 
-<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2000&pause=700&color=00FF66&center=true&vCenter=true&width=900&lines=Cyber+Security+Engineer;Full+Stack+Developer;Python+%7C+Django+%7C+JavaScript;Machine+Learning+Enthusiast;Building+CyberHQ;Building+FasalMitra+AI" alt="Typing SVG"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2000&pause=700&color=00FF66&center=true&vCenter=true&width=900&lines=Cyber+Security+Engineer;Full+Stack+Developer;Python+%7C+Django+%7C+JavaScript;Machine+Learning+Enthusiast;Building+CyberHQ;Building+FasalMitra+AI" />
+<br><br>
 
-</p>
+<img src="./assets/banner.svg" alt="CyberHQ Banner">
 
-  
-<p align="center">
-  
-  <img src="./assets/banner.svg" width="100%">
-  <p align="center">
+<br><br>
 
 <img src="https://img.shields.io/github/followers/Adarshdubey888?style=for-the-badge&color=00ff66"/>
-
 <img src="https://img.shields.io/github/stars/Adarshdubey888?style=for-the-badge&color=00ff66"/>
-
 <img src="https://komarev.com/ghpvc/?username=Adarshdubey888&style=for-the-badge&color=00ff66"/>
 
-</p>
-</p>
 </div>
 
 <table align="center">
 <tr>
-
-<td>
-
-<img src="./assets/profile-card.svg"/>
-
+<td align="center">
+<img src="./assets/profile-card.svg" alt="Profile Card"/>
 </td>
-
-<td>
-
-<img src="./assets/system.svg"/>
-
+<td align="center">
+<img src="./assets/system.svg" alt="System Card"/>
 </td>
-
 </tr>
 </table>
 
@@ -128,7 +113,7 @@ Session Closed Successfully...
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-</div>
+
 # 💻 Skill Matrix
 
 ```text
@@ -227,11 +212,11 @@ Machine Learning    ██████████████         78%
 ```console
 guest@github:~$ contact
 
-GitHub      : https://github.com/Adarshdubey888
+GitHub      : github.com/Adarshdubey888
 
 Portfolio   : CyberHQ (Coming Soon)
 
-LinkedIn    : https://www.linkedin.com/in/adarsh-dubey-a46a80295/
+LinkedIn    : linkedin.com/in/adarsh-dubey-a46a80295
 
 Email       : adarshdubey8889@gmail.com
 
