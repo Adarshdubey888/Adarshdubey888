@@ -33,24 +33,64 @@
 # 💻 Cyber Terminal
 
 ```console
-guest@github:~$ help
+guest@github:~$ whoami
+
+Adarsh Dubey
+
+Cyber Security Developer
+Full Stack Developer
+MCA Student @ Galgotias University
+
+------------------------------------------------------------
+
+guest@github:~$ skills
+
+✔ Python
+✔ Django
+✔ JavaScript
+✔ HTML & CSS
+✔ SQL
+✔ Git
+✔ Linux
+✔ Cyber Security
+✔ Machine Learning
+
+------------------------------------------------------------
+
+guest@github:~$ projects
+
+[1] CyberHQ
+    ↳ Interactive Cyberpunk Portfolio
+
+[2] FasalMitra AI
+    ↳ AI Powered Smart Agriculture Platform
+
+[3] Add Data
+    ↳ Dynamic Data Management System
+
+[4] SilentSignal AI
+    ↳ AI-Based Cyber Security Monitoring
+
+------------------------------------------------------------
+
+guest@github:~$ currently-working-on
+
+> Building CyberHQ
+> Learning Advanced Cyber Security
+> Exploring AI & Machine Learning
+
+------------------------------------------------------------
+
+guest@github:~$ quote
+
+"Code Secure. Build Smart. Never Stop Learning."
+
+------------------------------------------------------------
+
+guest@github:~$ exit
+
+Session Closed Successfully...
 ```
-
-| Command | Description |
-|----------|-------------|
-| whoami | Display profile |
-| about | About me |
-| education | Education |
-| skills | Technical skills |
-| projects | Featured projects |
-| github | GitHub statistics |
-| resume | Resume |
-| socials | Social links |
-| contact | Contact information |
-| clear | Clear terminal |
-
----
-<div align="center">
 
 # 🖥️ SYSTEM STATUS
 
@@ -142,6 +182,14 @@ Machine Learning    ██████████████         78%
 
 </div>
 
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adarshdubey888&theme=github-compact&hide_border=true"/>
+
+</div>
+
 # 🏆 Trophy Room
 
 <div align="center">
@@ -171,6 +219,7 @@ Email       : adarshdubey8889@gmail.com
 
 Location    : India
 ```
+
 <div align="center">
 
 ```text
@@ -184,5 +233,11 @@ KEEP LEARNING • KEEP BUILDING • KEEP SECURING
 
 ═══════════════════════════════════════════════════════════════
 ```
+
+</div>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Adarshdubey888&label=Profile%20Views&color=00ff66&style=for-the-badge"/>
 
 </div>
