@@ -1,1 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="220">
 
+<style>
+
+.title{
+fill:#00ff66;
+font:700 22px 'JetBrains Mono';
+}
+
+.text{
+fill:#00ff66;
+font:16px 'JetBrains Mono';
+}
+
+</style>
+
+<rect width="420" height="220" rx="15"
+fill="#0d1117"
+stroke="#00ff66"
+stroke-width="2"/>
+
+<text x="20" y="35" class="title">
+SYSTEM MONITOR
+</text>
+
+<text x="20" y="70" class="text">
+CPU      ████████████ 95%
+</text>
+
+<text x="20" y="100" class="text">
+MEMORY   ██████████ 82%
+</text>
+
+<text x="20" y="130" class="text">
+NETWORK  ███████████ 91%
+</text>
+
+<text x="20" y="160" class="text">
+UPTIME   24/7
+</text>
+
+<text x="20" y="190" class="text">
+MODE     HACKER
+</text>
+
+</svg>
