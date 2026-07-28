@@ -1,150 +1,154 @@
-<!-- ========================================= -->
-<!--        CYBER TERMINAL PROFILE            -->
-<!-- ========================================= -->
+<div align="center">
 
-<h1 align="center">
-  <img src="assets/banner.svg" width="100%">
-</h1>
+<img src="./assets/banner.svg" width="100%">
 
-<p align="center">
+# <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&repeat=true&width=900&lines=Initializing+Cyber+Terminal...;Loading+Security+Modules...;Connecting+to+GitHub...;Welcome+Adarsh+Dubey;Cyber+Security+%7C+Full+Stack+Developer;Building+AI+Powered+Solutions" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=Initializing+Cyber+Terminal...;Access+Granted...;Welcome+Adarsh+Dubey;Cyber+Security+Engineer;Full+Stack+Developer;AI+Enthusiast" />
-
-</p>
+</div>
 
 ---
 
-# 💻 Terminal
+# 💻 Cyber Terminal
 
-```bash
+```console
 guest@github:~$ help
 ```
 
-```
-Available Commands
-
-whoami
-about
-projects
-skills
-education
-contact
-resume
-github
-portfolio
-socials
-clear
-```
+| Command | Description |
+|----------|-------------|
+| whoami | Display profile |
+| about | About me |
+| education | Education |
+| skills | Technical skills |
+| projects | Featured projects |
+| github | GitHub statistics |
+| resume | Resume |
+| socials | Social links |
+| contact | Contact information |
+| clear | Clear terminal |
 
 ---
 
-```bash
+```console
 guest@github:~$ whoami
 ```
 
-```
-Adarsh Dubey
+```text
+Name        : Adarsh Dubey
 
-🎓 MCA @ Galgotias University
+Role        : Cyber Security Developer
 
-🛡 Cyber Security
+Education   : MCA @ Galgotias University
 
-💻 Full Stack Developer
+Interests   : AI • Cyber Security • Full Stack Development
 
-🤖 AI Enthusiast
-```
+OS          : Kali Linux
 
----
+Editor      : VS Code
 
-```bash
-guest@github:~$ projects
-```
-
-```
-▶ CyberHQ
-Interactive Portfolio
-
-▶ FasalMitra AI
-AI Smart Agriculture Platform
-
-▶ Add Data
-Dynamic Data Manager
-
-▶ SilentSignal AI
-Cyber Security Platform
+Status      : Online 🟢
 ```
 
 ---
 
-```bash
+```console
 guest@github:~$ skills
 ```
 
+```text
+Python            ██████████████████
+
+Django            ██████████████████
+
+JavaScript        ███████████████
+
+HTML/CSS          ███████████████
+
+Linux             ███████████████
+
+Git               ██████████████
+
+MySQL             █████████████
+
+Machine Learning  ███████████
+
+Cyber Security    ███████████████
 ```
-Python          ██████████████
 
-Django          ██████████████
+---
 
-JavaScript      ███████████
+```console
+guest@github:~$ projects
+```
 
-Linux           █████████████
+```text
+▶ CyberHQ
+Interactive Cyberpunk Portfolio
 
-MySQL           ██████████
+▶ FasalMitra AI
+AI Powered Smart Agriculture
 
-Git             ██████████
+▶ Add Data
+Dynamic Data Management Platform
 
-Cyber Security  ████████████
-
-Machine Learning█████████
+▶ SilentSignal AI
+AI Cyber Security Platform
 ```
 
 ---
 
 # 📊 GitHub Dashboard
 
-<p align="center">
+<div align="center">
 
-<img height="170"
-src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Adarshdubey888&show_icons=true&theme=chartreuse-dark&hide_border=true">
 
-<img height="170"
-src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=chartreuse-dark&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com?user=Adarshdubey888&theme=chartreuse-dark&hide_border=true">
 
-</p>
+</div>
 
----
+<br>
 
-<p align="center">
+<div align="center">
 
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=chartreuse-dark&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarshdubey888&layout=compact&theme=chartreuse-dark&hide_border=true">
 
-</p>
+</div>
 
 ---
 
 # 🏆 Achievements
 
-<p align="center">
+<div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=matrix&no-frame=true&margin-w=10"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Adarshdubey888&theme=matrix&no-frame=true&row=1&column=7">
 
-</p>
+</div>
 
 ---
 
 # 🐍 Contribution Snake
 
-Coming Soon...
+> Coming in the next step...
 
 ---
 
 # 📫 Contact
 
-GitHub
+```text
+GitHub     : https://github.com/Adarshdubey888
 
-LinkedIn
+Portfolio  : CyberHQ
 
-Portfolio
+LinkedIn   : Coming Soon
 
-Email
+Email      : *************
+```
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile ⭐
+
+</div>
