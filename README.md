@@ -56,58 +56,62 @@ guest@github:~$ help
 ```
 
 </div>
-guest@github:~$ skills
-```
+# 💻 Skill Matrix
 
 ```text
-Python            ██████████████████
+Python              ██████████████████████ 95%
 
-Django            ██████████████████
+Django              ███████████████████    90%
 
-JavaScript        ███████████████
+JavaScript          ████████████████       85%
 
-HTML/CSS          ███████████████
+HTML/CSS            █████████████████      88%
 
-Linux             ███████████████
+Linux               ███████████████████    92%
 
-Git               ██████████████
+Git                 █████████████████      87%
 
-MySQL             █████████████
+MySQL               ███████████████        82%
 
-Machine Learning  ███████████
+Cyber Security      ███████████████████    93%
 
-Cyber Security    ███████████████
+Machine Learning    ██████████████         78%
 ```
-
----
+# 🚀 Featured Projects
 
 ```console
-guest@github:~$ projects
+┌──────────────────────────────────────────────────────────────┐
+│ 01 │ CyberHQ                                                 │
+├──────────────────────────────────────────────────────────────┤
+│ Interactive Cyberpunk Developer Portfolio                    │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ 02 │ FasalMitra AI                                           │
+├──────────────────────────────────────────────────────────────┤
+│ AI Powered Smart Agriculture Platform                        │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ 03 │ Add Data                                                │
+├──────────────────────────────────────────────────────────────┤
+│ Dynamic Data Management Platform                             │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ 04 │ SilentSignal AI                                         │
+├──────────────────────────────────────────────────────────────┤
+│ AI Based Cyber Security Monitoring                           │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-```text
-▶ CyberHQ
-Interactive Cyberpunk Portfolio
-
-▶ FasalMitra AI
-AI Powered Smart Agriculture
-
-▶ Add Data
-Dynamic Data Management Platform
-
-▶ SilentSignal AI
-AI Cyber Security Platform
-```
-
----
-
-# 📊 GitHub Dashboard
+# 📊 Developer Dashboard
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Adarshdubey888&show_icons=true&theme=chartreuse-dark&hide_border=true">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Adarshdubey888&show_icons=true&theme=chartreuse-dark&hide_border=true"/>
 
-<img height="170" src="https://streak-stats.demolab.com?user=Adarshdubey888&theme=chartreuse-dark&hide_border=true">
+<img height="180" src="https://streak-stats.demolab.com?user=Adarshdubey888&theme=chartreuse-dark&hide_border=true"/>
 
 </div>
 
@@ -115,21 +119,17 @@ AI Cyber Security Platform
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarshdubey888&layout=compact&theme=chartreuse-dark&hide_border=true">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarshdubey888&layout=compact&theme=chartreuse-dark&hide_border=true"/>
 
 </div>
 
----
-
-# 🏆 Achievements
+# 🏆 Trophy Room
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Adarshdubey888&theme=matrix&no-frame=true&row=1&column=7">
+<img src="https://github-profile-trophy.vercel.app/?username=Adarshdubey888&theme=matrix&column=7&margin-w=10&no-frame=true"/>
 
 </div>
-
----
 
 # 🐍 Contribution Snake
 
@@ -137,22 +137,33 @@ AI Cyber Security Platform
 
 ---
 
-# 📫 Contact
+# 📡 Contact Terminal
 
-```text
-GitHub     : https://github.com/Adarshdubey888
+```console
+guest@github:~$ contact
 
-Portfolio  : CyberHQ
+GitHub      : https://github.com/Adarshdubey888
 
-LinkedIn   : Coming Soon
+Portfolio   : CyberHQ (Coming Soon)
 
-Email      : *************
+LinkedIn    : https://www.linkedin.com/in/adarsh-dubey-a46a80295/
+
+Email       : adarshdubey8889@gmail.com
+
+Location    : India
 ```
-
----
-
 <div align="center">
 
-### ⭐ Thanks for visiting my profile ⭐
+```text
+═══════════════════════════════════════════════════════════════
+
+SYSTEM STATUS : ONLINE
+
+THANK YOU FOR VISITING MY PROFILE
+
+KEEP LEARNING • KEEP BUILDING • KEEP SECURING
+
+═══════════════════════════════════════════════════════════════
+```
 
 </div>
