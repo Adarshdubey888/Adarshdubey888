@@ -167,7 +167,7 @@ Machine Learning    ██████████████         78%
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Adarshdubey888&show_icons=true&theme=chartreuse-dark&hide_border=true"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Adarshdubey888&show_icons=true&bg_color=0D1117&title_color=00FF66&text_color=FFFFFF&icon_color=00FF66&border_color=00FF66"/>
 
 <img height="180" src="https://streak-stats.demolab.com?user=Adarshdubey888&theme=chartreuse-dark&hide_border=true"/>
 
