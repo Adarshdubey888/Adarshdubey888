@@ -190,6 +190,14 @@ Machine Learning    ██████████████         78%
 
 </div>
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Adarshdubey888/Adarshdubey888/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
+
 # 🏆 Trophy Room
 
 <div align="center">
