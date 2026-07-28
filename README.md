@@ -1,5 +1,14 @@
 <p align="center">
   <img src="./assets/banner.svg" width="100%">
+  <p align="center">
+
+<img src="https://img.shields.io/github/followers/Adarshdubey888?style=for-the-badge&color=00ff66"/>
+
+<img src="https://img.shields.io/github/stars/Adarshdubey888?style=for-the-badge&color=00ff66"/>
+
+<img src="https://komarev.com/ghpvc/?username=Adarshdubey888&style=for-the-badge&color=00ff66"/>
+
+</p>
 </p>
 
 <table align="center">
