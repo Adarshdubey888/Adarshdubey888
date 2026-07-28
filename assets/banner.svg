@@ -1,125 +1,688 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <defs>
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="400"
+viewBox="0 0 1200 400">
 
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="100%" stop-color="#0d1117"/>
-    </linearGradient>
+<defs>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#020202"/>
+<stop offset="100%" stop-color="#0d1117"/>
+</linearGradient>
 
-    <style><![CDATA[
-      .title{
-        font:700 30px 'JetBrains Mono',monospace;
-        fill:#00ff66;
-      }
+<linearGradient id="panel" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#151b23"/>
+<stop offset="100%" stop-color="#090b0d"/>
+</linearGradient>
 
-      .text{
-        font:18px 'JetBrains Mono',monospace;
-        fill:#9ef7b1;
-      }
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="2" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
-      .small{
-        font:16px 'JetBrains Mono',monospace;
-        fill:#6eff8f;
-      }
+<style>
 
-      .cursor{
-        animation:blink 1s infinite;
-      }
+.title{
+fill:#00ff66;
+font:700 28px monospace;
+}
 
-      @keyframes blink{
-        50%{opacity:0;}
-      }
-    ]]></style>
+.head{
+fill:#00ff66;
+font:700 18px monospace;
+}
 
-  </defs>
+.text{
+fill:#9ef7b1;
+font:17px monospace;
+}
 
-  <rect width="1200" height="400" fill="url(#bg)"/>
+.small{
+fill:#75ff99;
+font:15px monospace;
+}
 
-  <!-- Terminal -->
-  <rect x="40" y="40" width="1120" height="320"
-        rx="15"
-        fill="#000"
-        stroke="#00ff66"
-        stroke-width="2"/>
+</style>
 
-  <!-- Header -->
-  <rect x="40" y="40" width="1120" height="40"
-        rx="15"
-        fill="#161b22"/>
+</defs>
 
-  <circle cx="70" cy="60" r="7" fill="#ff5f56"/>
-  <circle cx="95" cy="60" r="7" fill="#ffbd2e"/>
-  <circle cx="120" cy="60" r="7" fill="#27c93f"/>
+<!-- Background -->
 
-  <text x="500" y="65" class="small">
-CyberOS v2.0
-  </text>
+<rect
+width="1200"
+height="400"
+fill="url(#bg)"/>
 
-  <!-- Left Side -->
-  <text x="70" y="120" class="title">
-guest@github:~$
-  </text>
+<!-- Grid -->
 
-  <text x="360" y="120" class="title">
-whoami
-  </text>
+<g stroke="#00ff66" opacity="0.06">
 
-  <text x="70" y="165" class="text">
-👤 Adarsh Dubey
-  </text>
+<line x1="0" y1="40" x2="1200" y2="40"/>
+<line x1="0" y1="80" x2="1200" y2="80"/>
+<line x1="0" y1="120" x2="1200" y2="120"/>
+<line x1="0" y1="160" x2="1200" y2="160"/>
+<line x1="0" y1="200" x2="1200" y2="200"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="280" x2="1200" y2="280"/>
+<line x1="0" y1="320" x2="1200" y2="320"/>
+<line x1="0" y1="360" x2="1200" y2="360"/>
 
-  <text x="70" y="195" class="text">
-🛡 Cyber Security Developer
-  </text>
+<line x1="40" y1="0" x2="40" y2="400"/>
+<line x1="80" y1="0" x2="80" y2="400"/>
+<line x1="120" y1="0" x2="120" y2="400"/>
+<line x1="160" y1="0" x2="160" y2="400"/>
+<line x1="200" y1="0" x2="200" y2="400"/>
+<line x1="240" y1="0" x2="240" y2="400"/>
+<line x1="280" y1="0" x2="280" y2="400"/>
+<line x1="320" y1="0" x2="320" y2="400"/>
+<line x1="360" y1="0" x2="360" y2="400"/>
+<line x1="400" y1="0" x2="400" y2="400"/>
+<line x1="440" y1="0" x2="440" y2="400"/>
+<line x1="480" y1="0" x2="480" y2="400"/>
+<line x1="520" y1="0" x2="520" y2="400"/>
+<line x1="560" y1="0" x2="560" y2="400"/>
+<line x1="600" y1="0" x2="600" y2="400"/>
+<line x1="640" y1="0" x2="640" y2="400"/>
+<line x1="680" y1="0" x2="680" y2="400"/>
+<line x1="720" y1="0" x2="720" y2="400"/>
+<line x1="760" y1="0" x2="760" y2="400"/>
+<line x1="800" y1="0" x2="800" y2="400"/>
+<line x1="840" y1="0" x2="840" y2="400"/>
+<line x1="880" y1="0" x2="880" y2="400"/>
+<line x1="920" y1="0" x2="920" y2="400"/>
+<line x1="960" y1="0" x2="960" y2="400"/>
+<line x1="1000" y1="0" x2="1000" y2="400"/>
+<line x1="1040" y1="0" x2="1040" y2="400"/>
+<line x1="1080" y1="0" x2="1080" y2="400"/>
+<line x1="1120" y1="0" x2="1120" y2="400"/>
+<line x1="1160" y1="0" x2="1160" y2="400"/>
 
-  <text x="70" y="225" class="text">
-💻 Full Stack Developer
-  </text>
+</g>
 
-  <text x="70" y="255" class="text">
-🎓 MCA @ Galgotias University
-  </text>
+<!-- Terminal -->
 
-  <text x="70" y="285" class="text">
-🚀 Building CyberHQ & FasalMitra AI
-  </text>
+<rect
 
-  <text x="70" y="325" class="text">
-🟢 STATUS : ONLINE
-  </text>
+x="30"
 
-  <!-- Right Side -->
-  <rect x="760" y="105" width="320" height="190"
-        rx="10"
-        fill="#111"/>
+y="30"
 
-  <text x="790" y="140" class="text">
+width="1140"
+
+height="340"
+
+rx="18"
+
+fill="#050709"
+
+stroke="#00ff66"
+
+stroke-width="2"/>
+
+<!-- Header -->
+
+<rect
+
+x="30"
+
+y="30"
+
+width="1140"
+
+height="42"
+
+rx="18"
+
+fill="url(#panel)"/>
+
+<circle cx="60" cy="51" r="7" fill="#ff5f56"/>
+
+<circle cx="84" cy="51" r="7" fill="#ffbd2e"/>
+
+<circle cx="108" cy="51" r="7" fill="#27c93f"/>
+
+<text
+
+x="600"
+
+y="56"
+
+text-anchor="middle"
+
+class="small">
+
+CyberOS v3.0 • github.com/Adarshdubey888
+
+</text>
+
+  <!-- LEFT PANEL -->
+
+<text
+x="70"
+y="115"
+class="title"
+filter="url(#glow)">
+guest@github:~$ whoami
+</text>
+
+<text
+x="70"
+y="155"
+class="text">
+NAME        : Adarsh Dubey
+</text>
+
+<text
+x="70"
+y="185"
+class="text">
+ROLE        : Cyber Security Developer
+</text>
+
+<text
+x="70"
+y="215"
+class="text">
+EDUCATION   : MCA @ Galgotias University
+</text>
+
+<text
+x="70"
+y="245"
+class="text">
+SPECIALITY  : Full Stack Development
+</text>
+
+<text
+x="70"
+y="275"
+class="text">
+FOCUS       : AI • Cyber Security
+</text>
+
+<text
+x="70"
+y="305"
+class="text">
+PROJECT     : CyberHQ
+</text>
+
+<text
+x="70"
+y="335"
+class="text">
+PROJECT     : FasalMitra AI
+</text>
+
+<!-- Divider -->
+
+<line
+x1="690"
+y1="90"
+x2="690"
+y2="345"
+stroke="#00ff66"
+opacity="0.25"/>
+
+<!-- RIGHT PANEL -->
+
+<text
+x="740"
+y="115"
+class="head"
+filter="url(#glow)">
 SYSTEM MONITOR
-  </text>
+</text>
 
-  <text x="790" y="175" class="small">
-CPU      ████████████ 95%
-  </text>
+<!-- CPU -->
 
-  <text x="790" y="205" class="small">
-RAM      ██████████ 82%
-  </text>
+<text
+x="740"
+y="150"
+class="small">
+CPU
+</text>
 
-  <text x="790" y="235" class="small">
-NETWORK  ███████████ 91%
-  </text>
+<rect
+x="810"
+y="138"
+width="240"
+height="16"
+rx="4"
+fill="#1b1b1b"/>
 
-  <text x="790" y="265" class="small">
-SECURITY ███████████ 99%
-  </text>
+<rect
+x="810"
+y="138"
+width="220"
+height="16"
+rx="4"
+fill="#00ff66"/>
 
-  <text x="790" y="295" class="small cursor">
-█
-  </text>
+<text
+x="1065"
+y="151"
+class="small">
+92%
+</text>
+
+<!-- RAM -->
+
+<text
+x="740"
+y="185"
+class="small">
+RAM
+</text>
+
+<rect
+x="810"
+y="173"
+width="240"
+height="16"
+rx="4"
+fill="#1b1b1b"/>
+
+<rect
+x="810"
+y="173"
+width="190"
+height="16"
+rx="4"
+fill="#00ff66"/>
+
+<text
+x="1065"
+y="186"
+class="small">
+79%
+</text>
+
+<!-- NETWORK -->
+
+<text
+x="740"
+y="220"
+class="small">
+NETWORK
+</text>
+
+<rect
+x="810"
+y="208"
+width="240"
+height="16"
+rx="4"
+fill="#1b1b1b"/>
+
+<rect
+x="810"
+y="208"
+width="215"
+height="16"
+rx="4"
+fill="#00ff66"/>
+
+<text
+x="1065"
+y="221"
+class="small">
+90%
+</text>
+
+<!-- SECURITY -->
+
+<text
+x="740"
+y="255"
+class="small">
+SECURITY
+</text>
+
+<rect
+x="810"
+y="243"
+width="240"
+height="16"
+rx="4"
+fill="#1b1b1b"/>
+
+<rect
+x="810"
+y="243"
+width="235"
+height="16"
+rx="4"
+fill="#00ff66"/>
+
+<text
+x="1065"
+y="256"
+class="small">
+98%
+</text>
+
+<!-- STATUS -->
+
+<text
+x="740"
+y="300"
+class="head">
+STATUS : ONLINE
+</text>
+
+<text
+x="740"
+y="330"
+class="small">
+Initializing secure developer environment...
+</text>
+
+  <!-- ================= TERMINAL ================= -->
+
+<line
+x1="70"
+y1="355"
+x2="1130"
+y2="355"
+stroke="#00ff66"
+opacity="0.20"/>
+
+<text
+x="70"
+y="382"
+class="small">
+guest@github:~$
+</text>
+
+<text
+x="210"
+y="382"
+class="small">
+help
+</text>
+
+<!-- ================= COMMANDS ================= -->
+
+<text
+x="70"
+y="410"
+class="small">
+Available Commands
+</text>
+
+<text
+x="70"
+y="435"
+class="small">
+whoami
+</text>
+
+<text
+x="170"
+y="435"
+class="small">
+projects
+</text>
+
+<text
+x="290"
+y="435"
+class="small">
+skills
+</text>
+
+<text
+x="390"
+y="435"
+class="small">
+contact
+</text>
+
+<text
+x="500"
+y="435"
+class="small">
+github
+</text>
+
+<!-- ================= TECH STACK ================= -->
+
+<rect
+
+x="700"
+
+y="350"
+
+width="410"
+
+height="82"
+
+rx="10"
+
+fill="#0b1117"
+
+stroke="#00ff66"
+
+stroke-width="1"/>
+
+<text
+
+x="720"
+
+y="375"
+
+class="head">
+
+TECH STACK
+
+</text>
+
+<text
+
+x="720"
+
+y="400"
+
+class="small">
+
+Python • Django • JavaScript
+
+</text>
+
+<text
+
+x="720"
+
+y="420"
+
+class="small">
+
+HTML • CSS • Git • Linux • MySQL
+
+</text>
+
+<!-- ================= FOOTER ================= -->
+
+<line
+
+x1="30"
+
+y1="445"
+
+x2="1170"
+
+y2="445"
+
+stroke="#00ff66"
+
+opacity="0.15"/>
+
+<text
+
+x="600"
+
+y="470"
+
+text-anchor="middle"
+
+class="small">
+
+Code Secure • Build Smart • Never Stop Learning
+
+</text>
+
+<!-- ================= DECORATION ================= -->
+
+<circle
+cx="1120"
+cy="95"
+r="3"
+fill="#00ff66"/>
+
+<circle
+cx="1120"
+cy="110"
+r="3"
+fill="#00ff66"
+opacity="0.7"/>
+
+<circle
+cx="1120"
+cy="125"
+r="3"
+fill="#00ff66"
+opacity="0.4"/>
+
+<circle
+cx="1120"
+cy="140"
+r="3"
+fill="#00ff66"
+opacity="0.2"/>
+
+  <!-- ================= CYBER DECORATION ================= -->
+
+<g opacity="0.18">
+
+<circle cx="1080" cy="70" r="2" fill="#00ff66"/>
+<circle cx="1095" cy="85" r="2" fill="#00ff66"/>
+<circle cx="1110" cy="100" r="2" fill="#00ff66"/>
+<circle cx="1125" cy="115" r="2" fill="#00ff66"/>
+<circle cx="1140" cy="130" r="2" fill="#00ff66"/>
+
+<circle cx="1080" cy="180" r="2" fill="#00ff66"/>
+<circle cx="1095" cy="195" r="2" fill="#00ff66"/>
+<circle cx="1110" cy="210" r="2" fill="#00ff66"/>
+<circle cx="1125" cy="225" r="2" fill="#00ff66"/>
+<circle cx="1140" cy="240" r="2" fill="#00ff66"/>
+
+</g>
+
+<!-- ================= RIGHT BORDER ================= -->
+
+<line
+x1="1155"
+y1="70"
+x2="1155"
+y2="430"
+stroke="#00ff66"
+opacity="0.15"/>
+
+<!-- ================= STATUS BAR ================= -->
+
+<rect
+x="35"
+y="455"
+width="1130"
+height="28"
+rx="8"
+fill="#0d1117"
+stroke="#00ff66"
+stroke-width="1"/>
+
+<text
+x="55"
+y="474"
+class="small">
+
+SYSTEM STATUS
+
+</text>
+
+<text
+x="280"
+y="474"
+class="small">
+
+ONLINE
+
+</text>
+
+<text
+x="480"
+y="474"
+class="small">
+
+SECURE CONNECTION
+
+</text>
+
+<text
+x="760"
+y="474"
+class="small">
+
+CYBERHQ READY
+
+</text>
+
+<!-- ================= TERMINAL END ================= -->
+
+<text
+x="70"
+y="500"
+class="small">
+
+guest@github:~$ exit
+
+</text>
+
+<text
+x="70"
+y="523"
+class="small">
+
+Session Closed Successfully.
+
+</text>
+
+<text
+x="70"
+y="546"
+class="small">
+
+Thank you for visiting my GitHub Profile.
+
+</text>
+
+<!-- ================= OUTER GLOW ================= -->
+
+<rect
+x="30"
+y="30"
+width="1140"
+height="470"
+rx="18"
+fill="none"
+stroke="#00ff66"
+stroke-opacity="0.18"
+stroke-width="4"/>
 
 </svg>
