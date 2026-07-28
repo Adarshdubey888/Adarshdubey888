@@ -1,94 +1,158 @@
-<svg width="1200" height="320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
+<defs>
 
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="100%" stop-color="#111111"/>
-    </linearGradient>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="100%" stop-color="#0d1117"/>
+</linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+<filter id="glow">
+<feGaussianBlur stdDeviation="2" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
-    <style><![CDATA[
-      .title{
-        fill:#00ff41;
-        font-family:JetBrains Mono, monospace;
-        font-size:34px;
-        filter:url(#glow);
-      }
+<style><![CDATA[
 
-      .terminal{
-        fill:#00ff41;
-        font-family:JetBrains Mono, monospace;
-        font-size:22px;
-      }
+.title{
+fill:#00ff66;
+font-size:30px;
+font-family:JetBrains Mono,monospace;
+font-weight:bold;
+}
 
-      .small{
-        fill:#00ff41;
-        font-family:JetBrains Mono, monospace;
-        font-size:18px;
-      }
+.text{
+fill:#00ff66;
+font-size:22px;
+font-family:JetBrains Mono,monospace;
+}
 
-      .cursor{
-        animation: blink 1s infinite;
-      }
+.small{
+fill:#00ff66;
+font-size:18px;
+font-family:JetBrains Mono,monospace;
+}
 
-      @keyframes blink{
-        0%{opacity:1;}
-        50%{opacity:0;}
-        100%{opacity:1;}
-      }
+.cursor{
+animation:blink 1s infinite;
+}
 
-    ]]></style>
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}
 
-  </defs>
+]]></style>
 
-  <rect width="100%" height="100%" fill="url(#bg)"/>
+</defs>
 
-  <text x="40" y="55" class="title">
-    CYBER TERMINAL
-  </text>
+<!-- Background -->
 
-  <text x="40" y="95" class="small">
-    > Booting Secure Environment...
-  </text>
+<rect width="1200" height="360" fill="url(#bg)"/>
 
-  <text x="40" y="125" class="small">
-    > Connecting to GitHub...
-  </text>
+<!-- Terminal -->
 
-  <text x="40" y="155" class="small">
-    > Authentication Successful
-  </text>
+<rect
+x="40"
+y="35"
+rx="14"
+ry="14"
+width="1120"
+height="290"
+fill="#000000"
+stroke="#00ff66"
+stroke-width="2"/>
 
-  <text x="40" y="205" class="terminal">
-    guest@github:~$
-  </text>
+<!-- Terminal Header -->
 
-  <text x="230" y="205" class="terminal">
-    whoami
-  </text>
+<rect
+x="40"
+y="35"
+width="1120"
+height="40"
+rx="14"
+fill="#161b22"/>
 
-  <text x="40" y="245" class="small">
-    Adarsh Dubey
-  </text>
+<!-- macOS Buttons -->
 
-  <text x="40" y="272" class="small">
-    Cyber Security | Full Stack Developer | MCA Student
-  </text>
+<circle cx="70" cy="55" r="7" fill="#ff5f56"/>
+<circle cx="95" cy="55" r="7" fill="#ffbd2e"/>
+<circle cx="120" cy="55" r="7" fill="#27c93f"/>
 
-  <text x="40" y="300" class="small">
-    █
-  </text>
+<text x="520" y="60" class="small">
+Cyber Terminal
+</text>
 
-  <text x="55" y="300" class="cursor small">
-    _
-  </text>
+<!-- Boot -->
+
+<text x="70" y="105" class="small">
+&gt; Booting Linux Kernel...
+</text>
+
+<text x="70" y="135" class="small">
+&gt; Loading Security Modules...
+</text>
+
+<text x="70" y="165" class="small">
+&gt; Connecting to GitHub...
+</text>
+
+<text x="70" y="195" class="small">
+&gt; Access Granted
+</text>
+
+<!-- Prompt -->
+
+<text
+x="70"
+y="245"
+class="text"
+filter="url(#glow)">
+guest@github:~$
+</text>
+
+<text
+x="300"
+y="245"
+class="text"
+filter="url(#glow)">
+whoami
+</text>
+
+<!-- Identity -->
+
+<text
+x="70"
+y="280"
+class="small">
+Name : Adarsh Dubey
+</text>
+
+<text
+x="70"
+y="305"
+class="small">
+Role : Cyber Security | Full Stack Developer
+</text>
+
+<text
+x="70"
+y="330"
+class="small">
+Status : Online
+</text>
+
+<!-- Cursor -->
+
+<text
+x="255"
+y="245"
+class="text cursor">
+█
+</text>
 
 </svg>
